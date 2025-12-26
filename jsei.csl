@@ -17,7 +17,6 @@
     </contributor>
     <contributor>
       <name>Shotaro Imai</name>
-      <uri/>
     </contributor>
     <category citation-format="numeric"/>
     <summary>A style for Japan Society of Educational Information based on Elsevier's style</summary>
@@ -132,7 +131,6 @@
         <if variable="DOI">
           <text variable="DOI" prefix=". https://doi.org/"/>
         </if>
-        <else/>
       </choose>
     </layout>
   </bibliography>
