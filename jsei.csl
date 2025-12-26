@@ -32,7 +32,7 @@
       </substitute>
     </names>
     <choose>
-      <if type="article-journal" match="any">
+      <if type="article-journal article article-magazine article-newspaper thesis" match="any">
         <text macro="year-date" prefix=" (" suffix=")"/>
       </if>
     </choose>
@@ -96,7 +96,7 @@
       <text variable="citation-number" prefix="[" suffix="]"/>
       <text macro="author" suffix=", "/>
       <choose>
-        <if type="article-journal" match="any">
+        <if type="article-journal article article-magazine article-newspaper thesis" match="any">
           <group delimiter=", ">
             <text variable="title"/>
             <text variable="container-title"/>
